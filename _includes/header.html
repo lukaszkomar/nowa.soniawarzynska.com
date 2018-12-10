@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{% if page.lang == 'pl' %}pl{% else %}en{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+
+  <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% if page.lang == 'pl' %}{{ site.description_pl }}{% else %}{{ site.description_en }}{% endif %}">
+  <meta name="author"      content="{{ site.author }}">  
+
+  <meta property="og:locale"    content="{% if page.lang == 'pl' %}pl_PL{% else %}en_US{% endif %}" />
+  <meta property="og:site_name" content="{% if page.lang == 'pl' %}{{ site.og_site_name_pl }}{% else %}{{ site.og_site_name_en }}{% endif %}" />      
+
+  <link rel="stylesheet" id="all-css-0-2" href="/p/css/style.css" type="text/css" media="all">
+
+<!--
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=latin,latin-ext" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oleo+Script:400&amp;subset=latin,latin-ext"   />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster:400&amp;subset=latin,latin-ext"   />
+
+-->
+
+  <link rel="stylesheet" id="lodestar_fonts_url-css" href="https://fonts.googleapis.com/css?family=Work+Sans%3A800%7CKarla%3A400%2C400italic%2C700%2C700italic&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
+
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+  <link rel="author"    href="{{ site.social.gplus }}" />
+  <link rel="publisher" href="{{ site.social.gplus }}" />
+
+</head>
+<body class="home page-template-default page page-id-106 wp-embed-responsive mp6 customizer-styles-applied lodestar-front-page lodestar-footer-image has-top-content highlander-enabled highlander-light">
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/{% if page.lang == 'pl' %}pl_PL{% else %}en_US{% endif %}/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
