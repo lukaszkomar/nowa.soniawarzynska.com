@@ -26,21 +26,27 @@
                     </li>
                   {% endcomment %}
 
-
                   {% if page.lang == 'pl' %}
                       <li {% if page.url  == '/biografia.html' %} class="active" {% endif %}><a href="/biografia">Biografia</a></li>
                       <li {% if page.url  == '/repertuar.html' %} class="active" {% endif %}><a href="/repertuar">Repertuar</a></li>
-                      <li {% if page.url  == '/galeria.html'   %} class="active" {% endif %}><a href="/galeria"  >Galeria</a></li>
+                      <li {% if page.url  == '/zdjecia.html'   %} class="active" {% endif %}><a href="/zdjecia"  >Zdjęcia</a>
+                          <ul class="sub-menu">
+                              <li {% if page.url  == '/portrety.html'                          %} class="active" {% endif %}><a href="/portrety"  >Portrety</a>
+                              <li {% if page.url  == '/koncerty.html'                          %} class="active" {% endif %}><a href="/koncerty"  >Koncerty</a>
+                              <li {% if page.url  == '/spektakle.html'                         %} class="active" {% endif %}><a href="/spektakle" >Spektakle</a>
+                              <li {% if page.url  == '/zdjecia-o-wysokiej-rozdzielczosci.html' %} class="active" {% endif %}><a href="/zdjecia"   >Zdjęcia o wysokiej rozdzielczości</a>
+                          </ul>
+                      </li>
                       <li {% if page.url  == '/nagrania.html'  %} class="active" {% endif %}><a href="/nagrania" >Nagrania</a></li>
+                      <li {% if page.url  == '/prasa.html'     %} class="active" {% endif %}><a href="/prasa"    >Prasa</a></li>
                       <li {% if page.url  == '/kontakt.html'   %} class="active" {% endif %}><a href="/kontakt"  >Kontakt</a></li>
-                      {% comment %}<li {% if page.url  == '/singet.html'      %} class="active" {% endif %}><a href="/singet"   >Singet</a></li>{% endcomment %}
                   {% else %}
                       <li {% if page.url  == '/biography.html'  %} class="active" {% endif %}><a href="/biography"  >Biography</a></li>
                       <li {% if page.url  == '/repertoire.html' %} class="active" {% endif %}><a href="/repertoire" >Repertoire</a></li>
-                      <li {% if page.url  == '/gallery.html'    %} class="active" {% endif %}><a href="/gallery"    >Gallery</a></li>
+                      <li {% if page.url  == '/photos.html'     %} class="active" {% endif %}><a href="/photos"     >Photos</a></li>
                       <li {% if page.url  == '/recordings.html' %} class="active" {% endif %}><a href="/recordings" >Recordings</a></li>
+                      <li {% if page.url  == '/press.html'      %} class="active" {% endif %}><a href="/press"      >Press</a></li>
                       <li {% if page.url  == '/contact.html'    %} class="active" {% endif %}><a href="/contact"    >Contact</a></li>
-                      {% comment %}<li {% if page.url  == '/singet-band.html' %} class="active" {% endif %}><a href="/singet-band">Singet</a></li>{% endcomment %}
                   {% endif %}
 
                   {% if page.lang == 'pl' %}
