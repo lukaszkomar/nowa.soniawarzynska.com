@@ -48,19 +48,17 @@
                       <li {% if page.url  == '/press.html'      %} class="active" {% endif %}><a href="/press"      >Press</a></li>
                       <li {% if page.url  == '/contact.html'    %} class="active" {% endif %}><a href="/contact"    >Contact</a></li>
                   {% endif %}
-
-                  {% if page.lang == 'pl' %}
-                      <li><a href="/en">EN</a></li>
-                  {% else %}
-                      <li><a href="/">PL</a></li>
-                  {% endif %}
-
-
                   </ul>
                 </div>
             </nav><!-- #site-navigation -->
             <div class="site-top-content">
-                <span class="site-top-content-1">Kontakt: </span>
+                <span class="site-top-content-1">
+                  {% if page.lang == 'pl' %}
+                      <a href="/en">EN</a>
+                  {% else %}
+                      <a href="/">PL</a>
+                  {% endif %}
+                </span>
                 <a href="mailto:contact@soniawarzynska.com" class="site-top-content-2">contact@soniawarzynska.com</a>
             </div>
         </div>
