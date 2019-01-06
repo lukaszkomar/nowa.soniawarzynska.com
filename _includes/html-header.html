@@ -29,10 +29,9 @@
 
 </head>
 
-<body class="homeXXX lodestar-front-pageXXX has-sidebar page-template-default page wp-embed-responsive mp6 customizer-styles-applied lodestar-footer-image has-top-content highlander-enabled highlander-light">
+<body class="{% if page.layout == 'home' %}home lodestar-front-page{% else %}has-sidebar{% endif %} page-template-default page wp-embed-responsive mp6 customizer-styles-applied lodestar-footer-image has-top-content highlander-enabled highlander-light">
 
-{% if page.url  == '/'         %}##H###{% endif %}
-{% if page.url  == '/en.html'  %}##HE##{% endif %}
+
 
 {% comment %}
 <body class="                    page-template-default page page-id-25  wp-embed-responsive mp6 customizer-styles-applied lodestar-footer-image has-sidebar has-top-content highlander-enabled highlander-light demo-site">
