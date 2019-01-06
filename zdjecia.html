@@ -47,9 +47,7 @@ priority: 0.8
                         {% for g in site.gallery %}
 
 
-                        <article id="post-271" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" style="position: absolute; left: 0px; top: 0px;">
-
-                            #{{ g[0] }}##
+                        <article id="post-271-{{ g[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" style="position: absolute; left: 0px; top: 0px;">
 
                             <div class="post-thumbnail">
                                 <img data-original="http://soniawarzynska.com/p/img/g/{{ g[0] }}/{{ g[1].images['01'] }}m.jpg"
