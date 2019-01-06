@@ -7,14 +7,12 @@ priority: 0.8
 ---
                  <article id="post-278" class="post-278 page type-page status-publish has-post-thumbnail hentry">
                     <header class="entry-header">
-                        <h1>Zdjęcia</h1>				</header>
-
+                        <h1>{% if page.lang == 'pl' %}Zdjęcia{% else %}Photos{% endif %}</h1>
+                    </header>
                     <div class="entry-content">
-                        <p>Below are examples of our recent work. If you’d like to learn more, contact us!</p>
+                        <p>Zdjęcia</p>
                     </div>
                 </article><!-- #post-278 -->
-
-
 
 
                 <div class="portfolio-projects" id="portfolio-projects">
@@ -43,6 +41,43 @@ priority: 0.8
 
                     <div class="portfolio-wrapper" id="main" style="position: relative; height: 2454.22px;">
 
+
+
+
+                        {% for g in site.gallery %}
+
+
+                        <article id="post-271" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" style="position: absolute; left: 0px; top: 0px;">
+
+                            <div class="post-thumbnail">
+                                <img data-original="http://soniawarzynska.com/p/img/g/{{ g[0]] }}/{{ g[1].images['01'] }}m.jpg"
+                                     src="http://soniawarzynska.com/p/img/g/{{ g[0]] }}/{{ g[1].images['01'] }}m.jpg"
+
+                                     width="900"
+                                     height="600"
+                                     class="portfolio-featured-image"
+                                     alt="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                                     title="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                                     style="display: inline;"
+                                >
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+                                    <header class="entry-header">
+                                        <h2 class="entry-title">
+                                            <a href="/" rel="bookmark">{{ g[1].title[page.lang] }}</a>
+                                        </h2>
+                                    </header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links">{{ g[1].desc[page.lang] }}</span>
+                                    </div><!-- .entry-meta -->
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-271 -->
+                        {% endfor %}
 
 
 
