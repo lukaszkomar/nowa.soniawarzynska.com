@@ -377,7 +377,7 @@ input,
 select,
 textarea {
 	color: #333;
-	font-family: "Karla", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: "Amiri", "Helvetica Neue", helvetica, arial, sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -2065,7 +2065,7 @@ h2.widget-title {
 .entry-content div.sharedaddy h3.sd-title,
 .entry-content div#jp-relatedposts h3.jp-relatedposts-headline {
 	color: #666;
-	font-family: "Karla", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: "Amiri", "Helvetica Neue", helvetica, arial, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	font-size: 0.85rem;
