@@ -2874,7 +2874,8 @@ object {
 	}
 
 	.has-top-content .main-navigation {
-		width: 65%;
+		/** width: 65%; */
+		width: 85%;
 	}
 
 	.has-top-content .site-top-content,
