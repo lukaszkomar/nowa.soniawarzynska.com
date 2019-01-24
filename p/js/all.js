@@ -856,7 +856,7 @@ function JetpackLikesMessageListener( event, message ) {
 	}
 }
 
-pm.bind( 'likesMessage', JetpackLikesMessageListener );
+///pm.bind( 'likesMessage', JetpackLikesMessageListener );
 
 jQuery( document ).click( function( e ) {
 	var $container = jQuery( '#likes-other-gravatars' );
