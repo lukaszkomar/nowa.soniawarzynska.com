@@ -499,7 +499,7 @@ q::after {
 }
 
 /* Genericons */
-
+/*
 .menu-toggle::before,
 .menu-item-has-children > a::after,
 .page_item_has_children > a::after,
@@ -515,6 +515,7 @@ q::after {
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: auto;
 }
+*/
 
 /*--------------------------------------------------------------
 # Forms
@@ -1039,7 +1040,7 @@ body:not(.no-header-image) .custom-header-image::before,
 	background-color: transparent;
 	box-shadow: none;
 }
-
+/*
 .menu-toggle::before {
 	content: "\f419";
 	margin-right: 0.5em;
@@ -1050,7 +1051,7 @@ body:not(.no-header-image) .custom-header-image::before,
 .toggled .menu-toggle::before {
 	content: "\f406";
 }
-
+*/
 
 /*--------------------------------------------------------------
 # Front Page
