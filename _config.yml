@@ -44,6 +44,7 @@ gallery:
       "05": "baranowska3"
 
   "didoandaeneas":
+    "category": "koncerty"
     "url":
       "en": "Dido and Aeneas"
       "pl": "Dydona i Eneasz"
@@ -77,6 +78,7 @@ gallery:
 #      "05": "operameetsoperetta5"
 
   "2015widow":
+    "category": "koncerty"
     "title":
       "en": "The Merry Widow"
       "pl": "Wesoła wdówka"
@@ -133,6 +135,7 @@ gallery:
 #      "02": "wroclaw2"
 
   "estivales2014":
+    "category": "koncerty"
     "title":
       "en": "Estivales En Puisaye 2014"
       "pl": "Estivales En Puisaye 2014"
@@ -143,6 +146,7 @@ gallery:
       "01": "estivales1"
 
   "impressioart":
+    "category": "koncerty"
     "title":
       "en": "Impressio Art Sopot 2014"
       "pl": "Impressio Art Sopot 2014"
@@ -170,6 +174,7 @@ gallery:
 #      "03": "wroclaw3"
 
   "figaro":
+    "category": "spektakle"
     "title":
       "en": "“Le Nozze di Figaro”"
       "pl": "Wesele Figara"      
@@ -190,6 +195,7 @@ gallery:
       "15": "figaro15"
 
   "rodelinda":
+    "category": "koncerty"
     "title":
       "en": "Rodelinda"
       "pl": "Rodelinda"
