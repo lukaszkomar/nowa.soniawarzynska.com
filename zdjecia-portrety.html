@@ -1,0 +1,454 @@
+---
+layout: page
+lang: pl
+bodycss: page-template-portfolio-page
+title: Zdjęcia - Portrety - Sonia Warzyńska-Dettlaff
+priority: 0.8
+---
+                 <article id="post-278" class="post-278 page type-page status-publish has-post-thumbnail hentry">
+                    <header class="entry-header">
+                        <h1>{% if page.lang == 'pl' %}Zdjęcia{% else %}Photos{% endif %}</h1>
+                    </header>
+                    <div class="entry-content">
+                        <p>Zdjęcia</p>
+                    </div>
+                </article><!-- #post-278 -->
+
+
+                <div class="portfolio-projects" id="portfolio-projects">
+
+
+                    <div class="project-terms">
+
+			<span class="screen-reader-text">
+				Types:			</span>
+
+                        <ul>
+                            <li><a class=""                       href="/zdjecia"          >Wszystkie</a></li>
+                            <li><a class="current-type types-all" href="/zdjecia-portrety" >Portrety</a></li>
+                            <li><a class=""                       href="/koncerty"         >Koncerty</a></li>
+                            <li><a class=""                       href="/spektakle"        >Spektakle</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="portfolio-wrapper" id="main">
+
+
+
+
+                        {% for g in site.gallery %}
+
+
+                        <article id="post-{{ g[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
+
+                            <div class="post-thumbnail">
+                                <img data-original="http://soniawarzynska.com/p/img/g/{{ g[0] }}/{{ g[1].images['01'] }}m.jpg"
+                                     src="http://soniawarzynska.com/p/img/g/{{ g[0] }}/{{ g[1].images['01'] }}m.jpg"
+
+                                     width="900"
+                                     height="600"
+                                     class="portfolio-featured-image"
+                                     alt="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                                     title="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                                     style="display: inline;"
+                                >
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+                                    <header class="entry-header">
+                                        <h2 class="entry-title">
+                                            <a href="/gallery-{{ g[0] }}" rel="bookmark">{{ g[1].title[page.lang] }}</a>
+                                        </h2>
+                                    </header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links">{{ g[1].desc[page.lang] }}</span>
+                                    </div><!-- .entry-meta -->
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-271 -->
+                        {% endfor %}
+
+{% comment %}
+
+                        <article id="post" class="  post jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" XXXstyle="position: absolute; left: 0px; top: 0px;">
+                            <div class="post-thumbnail">
+                                <img data-original="/p/i/foto3.jpg" width="900" height="600" class="portfolio-featured-image" alt="" title="Notebook" src="/p/i/foto3.jpg" style="display: inline;">
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/notebook/" rel="bookmark">Notebook</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/abandoned/" rel="tag">Abandoned</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-271 -->
+
+
+
+
+                        <article id="post-268" class=" typeid-660 post-268 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-people jetpack-portfolio-tag-park jetpack-portfolio-tag-skatepark" XXXstyle="position: absolute; left: 570px; top: 0px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="/p/i/foto4.jpg" width="900" height="600" class="portfolio-featured-image" alt="" title="Notebook" src="/p/i/foto4.jpg" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/skateboarding/" rel="bookmark">Skateboarding</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/people/" rel="tag">People</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-268 -->
+
+
+
+
+                        <article id="post-265" class=" typeid-660 post-265 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-people jetpack-portfolio-tag-jump jetpack-portfolio-tag-outdoors jetpack-portfolio-tag-puddle" XXXstyle="position: absolute; left: 0px; top: 346px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1462146449396-2d7d4ba877d7.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Jump" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1462146449396-2d7d4ba877d7.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/jump/" rel="bookmark">Jump</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/people/" rel="tag">People</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-265 -->
+
+
+
+
+                        <article id="post-256" class=" typeid-2290 post-256 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-architecture jetpack-portfolio-tag-bridge jetpack-portfolio-tag-geometry" XXXstyle="position: absolute; left: 570px; top: 346px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1464621922360-27f3bf0eca75.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Geometric" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1464621922360-27f3bf0eca75.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/geometric/" rel="bookmark">Geometric</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/architecture/" rel="tag">Architecture</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-256 -->
+
+
+
+
+                        <article id="post-253" class=" typeid-660 post-253 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-people jetpack-portfolio-tag-feet jetpack-portfolio-tag-outdoors" XXXstyle="position: absolute; left: 0px; top: 692px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1456894332557-b03dc5cf60d5.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Tracks" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1456894332557-b03dc5cf60d5.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/tracks/" rel="bookmark">Tracks</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/people/" rel="tag">People</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-253 -->
+
+
+
+
+                        <article id="post-250" class=" typeid-67543 post-250 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-car jetpack-portfolio-tag-green" XXXstyle="position: absolute; left: 570px; top: 692px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1454047637795-79e3325dfa0e.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Steering Wheel" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1454047637795-79e3325dfa0e.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/steering-wheel/" rel="bookmark">Steering Wheel</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/abandoned/" rel="tag">Abandoned</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-250 -->
+
+
+
+
+                        <article id="post-247" class=" typeid-15429 post-247 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-building jetpack-portfolio-tag-dark jetpack-portfolio-tag-lights jetpack-portfolio-tag-outdoor" XXXstyle="position: absolute; left: 0px; top: 1038px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1453230806017-56d81464b6c5.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="At Night" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1453230806017-56d81464b6c5.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/at-night/" rel="bookmark">At Night</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/building/" rel="tag">Building</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-247 -->
+
+
+
+
+                        <article id="post-244" class=" typeid-67543 post-244 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-outdoors jetpack-portfolio-tag-snow jetpack-portfolio-tag-waterslide" XXXstyle="position: absolute; left: 570px; top: 1038px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1450802313493-940b3cfaa291.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Waterslide" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1450802313493-940b3cfaa291.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/waterslide/" rel="bookmark">Waterslide</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/abandoned/" rel="tag">Abandoned</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-244 -->
+
+
+
+
+                        <article id="post-241" class=" typeid-586 post-241 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-food jetpack-portfolio-tag-dessert jetpack-portfolio-tag-pears" XXXstyle="position: absolute; left: 0px; top: 1384px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1447078806655-40579c2520d6.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Pears" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1447078806655-40579c2520d6.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/pears/" rel="bookmark">Pears</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/food/" rel="tag">Food</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-241 -->
+
+
+
+
+                        <article id="post-237" class=" typeid-2290 post-237 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-architecture" XXXstyle="position: absolute; left: 570px; top: 1384px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1442037025225-e1cffaa2dc23.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Corner" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1442037025225-e1cffaa2dc23.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/corner/" rel="bookmark">Corner</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/architecture/" rel="tag">Architecture</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-237 -->
+
+
+
+
+                        <article id="post-231" class=" typeid-2290 post-231 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-architecture jetpack-portfolio-tag-dark jetpack-portfolio-tag-grey jetpack-portfolio-tag-outdoors" XXXstyle="position: absolute; left: 0px; top: 1730px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1440613905118-99b921706b5c.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Bridge" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1440613905118-99b921706b5c.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/bridge/" rel="bookmark">Bridge</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/architecture/" rel="tag">Architecture</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-231 -->
+
+
+
+
+                        <article id="post-228" class=" typeid-586 post-228 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-food jetpack-portfolio-tag-coffee jetpack-portfolio-tag-dark jetpack-portfolio-tag-interior" XXXstyle="position: absolute; left: 570px; top: 1730px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1442512595331-e89e73853f31.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Coffee Shop" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1442512595331-e89e73853f31.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/coffee-shop/" rel="bookmark">Coffee Shop</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/food/" rel="tag">Food</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-228 -->
+
+
+
+
+                        <article id="post-223" class=" typeid-15429 post-223 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-building jetpack-portfolio-tag-outdoors jetpack-portfolio-tag-white" XXXstyle="position: absolute; left: 0px; top: 2076px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1437935593714-0e005a38bf51.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="White Wall" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1437935593714-0e005a38bf51.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/white-wall/" rel="bookmark">White Wall</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/building/" rel="tag">Building</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-223 -->
+
+
+
+
+                        <article id="post-218" class=" typeid-15429 post-218 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-building jetpack-portfolio-tag-architecture jetpack-portfolio-tag-outdoors jetpack-portfolio-tag-red" XXXstyle="position: absolute; left: 570px; top: 2076px;">
+                            <div class="post-thumbnail">
+
+                                <img data-original="https://lodestardemo.files.wordpress.com/2016/07/photo-1436397543931-01c4a5162bdb.jpeg?w=900&amp;h=600&amp;crop=1" width="900" height="600" class="portfolio-featured-image" alt="" title="Red Wall" src="https://lodestardemo.files.wordpress.com/2016/07/photo-1436397543931-01c4a5162bdb.jpeg?w=900&amp;h=600&amp;crop=1" style="display: inline;">
+
+                            </div><!-- .post-thumbnail -->
+
+
+                            <div class="project-archive-content">
+                                <div class="project-archive-content-wrapper">
+
+                                    <header class="entry-header">
+                                        <h2 class="entry-title"><a href="https://lodestardemo.wordpress.com/portfolio/red-wall/" rel="bookmark">Red Wall</a></h2>			</header>
+                                    <div class="entry-meta">
+                                        <span class="cat-links"> Type: <a href="https://lodestardemo.wordpress.com/project-type/building/" rel="tag">Building</a></span>			</div><!-- .entry-meta -->
+
+                                    <footer class="entry-footer">
+                                    </footer><!-- .entry-footer -->
+
+                                </div><!-- .project-archive-content-wrap -->
+                            </div><!-- .project-archive-content -->
+
+                        </article><!-- #post-218 -->
+{% endcomment %}
+
+
+                    </div><!-- .portfolio-wrapper -->
+
+                </div><!-- .portfolio-projects -->

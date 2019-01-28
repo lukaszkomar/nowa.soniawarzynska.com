@@ -26,6 +26,10 @@ permalink: /:title/
 gallery:
 
   "portraits":
+    "category": "portrety"
+    "url":
+      "en": "Dido and Aeneas"
+      "pl": "Dydona i Eneasz"
     "title":
       "en": "Portraits"
       "pl": "Portrety"
@@ -40,6 +44,9 @@ gallery:
       "05": "baranowska3"
 
   "didoandaeneas":
+    "url":
+      "en": "Dido and Aeneas"
+      "pl": "Dydona i Eneasz"
     "title":
       "en": "Dido and Aeneas"
       "pl": "Dydona i Eneasz"
