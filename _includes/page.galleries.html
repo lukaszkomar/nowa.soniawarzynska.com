@@ -23,7 +23,7 @@
 
     {% for g in site.gallery %}
 
-        {% if g[1].category == page.gallcat OR "wszystkie" == page.gallcat %}
+        {% if g[1].category == page.gallcat or "wszystkie" == page.gallcat %}
 
 
         <article id="post-{{ g[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
