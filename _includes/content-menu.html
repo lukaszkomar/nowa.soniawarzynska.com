@@ -31,9 +31,9 @@
                       <li class="{% if page.name  == 'repertuar.html' %}current_page_item{% endif %}"><a href="/repertuar">Repertuar</a></li>
                       <li class="{% if page.name  == 'zdjecia.html'   %}current_page_item{% endif %}"><a href="/zdjecia"  >Zdjęcia</a>
                           <ul class="sub-menu">
-                              <li class="{% if page.name  == 'portrety.html'                          %}current_page_item{% endif %}"><a href="/portrety"                          >Portrety</a>
-                              <li class="{% if page.name  == 'koncerty.html'                          %}current_page_item{% endif %}"><a href="/koncerty"                          >Koncerty</a>
-                              <li class="{% if page.name  == 'spektakle.html'                         %}current_page_item{% endif %}"><a href="/spektakle"                         >Spektakle</a>
+                              <li class="{% if page.name  == 'zdjecia-portrety.html'                  %}current_page_item{% endif %}"><a href="/portrety"                          >Portrety</a>
+                              <li class="{% if page.name  == 'zdjecia-koncerty.html'                  %}current_page_item{% endif %}"><a href="/koncerty"                          >Koncerty</a>
+                              <li class="{% if page.name  == 'zdjecia-spektakle.html'                 %}current_page_item{% endif %}"><a href="/spektakle"                         >Spektakle</a>
                               <li class="{% if page.name  == 'zdjecia-o-wysokiej-rozdzielczosci.html' %}current_page_item{% endif %}"><a href="/zdjecia-o-wysokiej-rozdzielczosci" >Zdjęcia o wysokiej rozdzielczości</a>
                           </ul>
                       </li>
@@ -43,7 +43,14 @@
                   {% else %}
                       <li class="{% if page.name  == 'biography.html'  %}current_page_item{% endif %}"><a href="/biography"  >Biography</a></li>
                       <li class="{% if page.name  == 'repertoire.html' %}current_page_item{% endif %}"><a href="/repertoire" >Repertoire</a></li>
-                      <li class="{% if page.name  == 'photos.html'     %}current_page_item{% endif %}"><a href="/photos"     >Photos</a></li>
+                      <li class="{% if page.name  == 'photos.html'     %}current_page_item{% endif %}"><a href="/photos"     >Photos</a>
+                          <ul class="sub-menu">
+                              <li class="{% if page.name  == 'zdjecia-portrety.html'                  %}current_page_item{% endif %}"><a href="/portrety"                          >Portrety</a>
+                              <li class="{% if page.name  == 'zdjecia-koncerty.html'                  %}current_page_item{% endif %}"><a href="/koncerty"                          >Koncerty</a>
+                              <li class="{% if page.name  == 'zdjecia-spektakle.html'                 %}current_page_item{% endif %}"><a href="/spektakle"                         >Spektakle</a>
+                              <li class="{% if page.name  == 'zdjecia-o-wysokiej-rozdzielczosci.html' %}current_page_item{% endif %}"><a href="/zdjecia-o-wysokiej-rozdzielczosci" >Zdjęcia o wysokiej rozdzielczości</a>
+                          </ul>
+                      </li>
                       <li class="{% if page.name  == 'recordings.html' %}current_page_item{% endif %}"><a href="/recordings" >Recordings</a></li>
                       <li class="{% if page.name  == 'press.html'      %}current_page_item{% endif %}"><a href="/press"      >Press</a></li>
                       <li class="{% if page.name  == 'contact.html'    %}current_page_item{% endif %}"><a href="/contact"    >Contact</a></li>
