@@ -12,10 +12,10 @@
 
     <div class="project-terms">
         <ul>
-            <li><a class=""                       href="/zdjecia"          >Wszystkie</a></li>
-            <li><a class="current-type types-all" href="/zdjecia-portrety" >Portrety xx</a></li>
-            <li><a class=""                       href="/koncerty"         >Koncerty</a></li>
-            <li><a class=""                       href="/spektakle"        >Spektakle</a></li>
+            <li><a class="{% if page.gallcat  == 'wszystkie' %}current-type types-all{% endif %}" href="/zdjecia"          >Wszystkie</a></li>
+            <li><a class="{% if page.gallcat  == 'portrety'  %}current-type types-all{% endif %}" href="/zdjecia-portrety" >Portrety</a></li>
+            <li><a class="{% if page.gallcat  == 'koncerty'  %}current-type types-all{% endif %}" href="/zdjecia-koncerty" >Koncerty</a></li>
+            <li><a class="{% if page.gallcat  == 'spektakle' %}current-type types-all{% endif %}" href="/zdjecia-spektakle">Spektakle</a></li>
         </ul>
     </div>
 
