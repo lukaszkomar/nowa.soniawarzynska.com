@@ -11,27 +11,19 @@
 <div class="portfolio-projects" id="portfolio-projects">
 
     <div class="project-terms">
-
-			<span class="screen-reader-text">
-				Types:			</span>
-
         <ul>
             <li><a class=""                       href="/zdjecia"          >Wszystkie</a></li>
             <li><a class="current-type types-all" href="/zdjecia-portrety" >Portrety xx</a></li>
             <li><a class=""                       href="/koncerty"         >Koncerty</a></li>
             <li><a class=""                       href="/spektakle"        >Spektakle</a></li>
-
         </ul>
     </div>
 
     <div class="portfolio-wrapper" id="main">
 
+    {% for g in site.gallery %}
 
-
-
-        {% for g in site.gallery %}
-
-        {% if g[1].category == page.gallcat %}
+        {% if g[1].category == page.gallcat OR "wszystkie" == page.gallcat %}
 
 
         <article id="post-{{ g[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
@@ -65,7 +57,7 @@
 
         </article><!-- #post-271 -->
         {% endif %}
-        {% endfor %}
+    {% endfor %}
 
 
     </div><!-- .portfolio-wrapper -->
