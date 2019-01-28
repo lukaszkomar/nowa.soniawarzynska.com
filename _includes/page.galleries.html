@@ -2,9 +2,11 @@
     <header class="entry-header">
         <h1>{% if page.lang == 'pl' %}Zdjęcia{% else %}Photos{% endif %}</h1>
     </header>
+    {% comment %}
     <div class="entry-content">
         <p>Zdjęcia</p>
     </div>
+    {% endcomment %}
 </article><!-- #post-278 -->
 
 
@@ -24,8 +26,6 @@
     {% for g in site.gallery %}
 
         {% if g[1].category == page.gallcat or "wszystkie" == page.gallcat %}
-
-
         <article id="post-{{ g[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
 
             <div class="post-thumbnail">
@@ -55,7 +55,7 @@
                 </div><!-- .project-archive-content-wrap -->
             </div><!-- .project-archive-content -->
 
-        </article><!-- #post-271 -->
+        </article><!-- #post -->
         {% endif %}
     {% endfor %}
 
