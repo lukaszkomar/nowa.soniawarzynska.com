@@ -1,49 +1,73 @@
- <article id="post-278" class="post-278 page type-page status-publish has-post-thumbnail hentry">
+<article id="post-278" class="post-278 page type-page status-publish has-post-thumbnail hentry">
     <header class="entry-header">
-        <h1>{{ site.gallery[page.galleryname].title[page.lang] }}</h1>
+        <h1>{% if page.lang == 'pl' %}Zdjęcia{% else %}Photos{% endif %}</h1>
     </header>
     <div class="entry-content">
-        <p>{{ site.gallery[page.galleryname].desc[page.lang] }}</p>
+        <p>Zdjęcia</p>
     </div>
-</article>
+</article><!-- #post-278 -->
 
 
- <div class="portfolio-projects" id="portfolio-projects">
- <div class="portfolio-wrapper" id="main">
+<div class="portfolio-projects" id="portfolio-projects">
 
-{% for img in site.gallery[page.galleryname].images %}
+    <div class="project-terms">
 
-<article id="post-{{ img[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
+			<span class="screen-reader-text">
+				Types:			</span>
 
-     <div class="post-thumbnail">
-         <img data-original="http://soniawarzynska.com/p/img/g/{{ page.galleryname }}/{{ img[1]}}.jpg"
-              src="http://soniawarzynska.com/p/img/g/{{ page.galleryname }}/{{ img[1] }}m.jpg"
+        <ul>
+            <li><a class=""                       href="/zdjecia"          >Wszystkie</a></li>
+            <li><a class="current-type types-all" href="/zdjecia-portrety" >Portrety xx</a></li>
+            <li><a class=""                       href="/koncerty"         >Koncerty</a></li>
+            <li><a class=""                       href="/spektakle"        >Spektakle</a></li>
 
-              width="900"
-              height="600"
-              class="portfolio-featured-image"
-              alt="{{ site.gallery[page.galleryname].title[page.lang] }} - {{ site.gallery[page.galleryname].desc[page.lang] }}"
-              title="{{ site.gallery[page.galleryname].title[page.lang] }} - {{ site.gallery[page.galleryname].desc[page.lang] }}"
-              style="display: inline;"
-         >
-     </div><!-- .post-thumbnail -->
+        </ul>
+    </div>
+
+    <div class="portfolio-wrapper" id="main">
 
 
-     <div class="project-archive-content">
-         <div class="project-archive-content-wrapper">
-             <header class="entry-header">
-                 <h2 class="entry-title">
-                     <a href="http://soniawarzynska.com/p/img/g/{{ page.galleryname }}/{{ img[1] }}.jpg" target="_blank" rel="bookmark">{{ site.gallery[page.galleryname].title[page.lang] }}</a>
-                 </h2>
-             </header>
-             <div class="entry-meta">
-                 <span class="cat-links">{{ site.gallery[page.galleryname].desc[page.lang] }}</span>
-             </div><!-- .entry-meta -->
-         </div><!-- .project-archive-content-wrap -->
-     </div><!-- .project-archive-content -->
 
-</article><!-- #post-271 -->
-{% endfor %}
 
- </div>
- </div>
+        {% for g in site.gallery %}
+
+        {% if g[1].category == page.gallcat %}
+
+
+        <article id="post-{{ g[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
+
+            <div class="post-thumbnail">
+                <img data-original="http://soniawarzynska.com/p/img/g/{{ g[0] }}/{{ g[1].images['01'] }}m.jpg"
+                     src="http://soniawarzynska.com/p/img/g/{{ g[0] }}/{{ g[1].images['01'] }}m.jpg"
+
+                     width="900"
+                     height="600"
+                     class="portfolio-featured-image"
+                     alt="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                     title="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                     style="display: inline;"
+                >
+            </div><!-- .post-thumbnail -->
+
+
+            <div class="project-archive-content">
+                <div class="project-archive-content-wrapper">
+                    <header class="entry-header">
+                        <h2 class="entry-title">
+                            <a href="/gallery-{{ g[0] }}" rel="bookmark">{{ g[1].title[page.lang] }}</a>
+                        </h2>
+                    </header>
+                    <div class="entry-meta">
+                        <span class="cat-links">{{ g[1].desc[page.lang] }}</span>
+                    </div><!-- .entry-meta -->
+                </div><!-- .project-archive-content-wrap -->
+            </div><!-- .project-archive-content -->
+
+        </article><!-- #post-271 -->
+        {% endif %}
+        {% endfor %}
+
+
+    </div><!-- .portfolio-wrapper -->
+
+</div><!-- .portfolio-projects -->
