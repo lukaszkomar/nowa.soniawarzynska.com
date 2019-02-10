@@ -25,23 +25,36 @@ permalink: /:title/
 # Struktura galerii
 gallery:
 
-  "portraits":
+  "portrait-raczka":
     "category": "portrety"
     "url":
-      "en": "Dido and Aeneas"
-      "pl": "Dydona i Eneasz"
+      "en": "u"
+      "pl": "u"
     "title":
-      "en": "Portraits"
-      "pl": "Portrety"
+      "en": "Portraits - Marta Rączka"
+      "pl": "Portrety - Marta Rączka"
+    "desc":
+      "en": "by Marta Rączka"
+      "pl": "fot. Marta Rączka"
+    "images":
+      "01": "portrait1"
+      "02": "portrait2"
+
+  "portraits-baranowska":
+    "category": "portrety"
+    "url":
+      "en": "url"
+      "pl": "url"
+    "title":
+      "en": "Portraits - Zofia Baranowska"
+      "pl": "Portrety - Zofia Baranowska"
     "desc":
       "en": "by Zofia Baranowska"
       "pl": "fot. Zofia Baranowska"
     "images":
-      "01": "portrait1"
-      "02": "portrait2"
-      "03": "baranowska1"
-      "04": "baranowska2"
-      "05": "baranowska3"
+      "01": "baranowska1"
+      "02": "baranowska2"
+      "03": "baranowska3"
 
   "didoandaeneas":
     "category": "koncerty"
