@@ -147,7 +147,7 @@ gallery:
 #      "01": "wroclaw1"
 #      "02": "wroclaw2"
 
-  "allegretto2018":
+  "zilina-allegretto-2018":
     "category": "koncerty"
     "title":
       "en": "Festiwal Allegretto Žilina"
@@ -156,10 +156,14 @@ gallery:
       "en": "Festiwal Allegretto Žilina: Recital pieśni słowiańskich, 19.04.2018r. Dom Umenia Fatra Žilina (Słowacja)"
       "pl": "Festiwal Allegretto Žilina: Recital pieśni słowiańskich, 19.04.2018r. Dom Umenia Fatra Žilina (Słowacja)"
     "images":
-      "01": "estivales1"
+      "01": "zilina1"
+      "02": "zilina2"
+      "03": "zilina3"
+      "04": "zilina4"
+      "05": "zilina5"
 
 
-  "bydgoszcz2018":
+  "bydgoszcz-2018":
     "category": "koncerty"
     "title":
       "en": "”Requiem d-moll” W.A.Mozart"
@@ -168,10 +172,9 @@ gallery:
       "en": "”Requiem d-moll” W.A.Mozarta: solo sopranowe, 30.10.2018r. Filharmonia Pomorska w Bydgoszczy"
       "pl": "”Requiem d-moll” W.A.Mozarta: solo sopranowe, 30.10.2018r. Filharmonia Pomorska w Bydgoszczy"
     "images":
-      "01": "estivales1"
+      "01": "bydgoszcz1"
 
-
-  "noworoczny2019":
+  "zilina-noworoczny-2019":
     "category": "koncerty"
     "title":
       "en": "Koncerty Noworoczne Žilina"
@@ -180,7 +183,13 @@ gallery:
       "en": "Koncerty Noworoczne Žilina: 17-18.01.2019r. Štátny komorný orchester, Dom Umenia Fatra Žilina (Słowacja)"
       "pl": "Koncerty Noworoczne Žilina: 17-18.01.2019r. Štátny komorný orchester, Dom Umenia Fatra Žilina (Słowacja)"
     "images":
-      "01": "estivales1"
+      "01": "zilina1"
+      "02": "zilina2"
+      "03": "zilina3"
+      "04": "zilina4"
+      "05": "zilina5"
+      "06": "zilina6"
+      "07": "zilina7"
 
 
   "estivales2014":
