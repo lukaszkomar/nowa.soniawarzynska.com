@@ -2993,7 +2993,7 @@ object {
 	}
 
 	.portfolio-projects article.hires {
-		width: 48%;
+		width: 30%;
 		width: calc( 30% - 20px );
 	}
 
