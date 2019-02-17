@@ -59,7 +59,7 @@ gallery:
   "didoandaeneas":
     "category": "spektakle"
     "url":
-      "en": "photos-spektakle-dido-and-aeneas"
+      "en": "photos-production-dido-and-aeneas"
       "pl": "zdjecia-spektakle-dydona-i-eneasz"
     "title":
       "en": "Dido and Aeneas"
@@ -78,6 +78,9 @@ gallery:
 
   "2015widow":
     "category": "spektakle"
+    "url":
+      "en": "photos-production-the-merry-widow"
+      "pl": "zdjecia-spektakle-wesola-wdowka"
     "title":
       "en": "The Merry Widow"
       "pl": "Wesoła wdówka"
