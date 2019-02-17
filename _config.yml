@@ -25,11 +25,11 @@ permalink: /:title/
 # Struktura galerii
 gallery:
 
-  "portrait-raczka":
+  "portraits-raczka":
     "category": "portrety"
     "url":
-      "en": "u"
-      "pl": "u"
+      "en": "photos-portraits-marta-raczka"
+      "pl": "zdjecia-portrety-marta-raczka"
     "title":
       "en": "Portraits - Marta Rączka"
       "pl": "Portrety - Marta Rączka"
@@ -76,20 +76,6 @@ gallery:
       "06": "didoandaeneas6"
       "07": "didoandaeneas7"
 
-#  "operameetsoperetta":
-#    "title":
-#      "en": "When opera meets operetta"
-#      "pl": "Gdy opera spotyka się z operetką"
-#    "desc":
-#      "en": "Wrocław, 24.10.2015. Tomasz Maleszewski (tenor), Magdalena Jaszczak (piano)"
-#      "pl": "Wrocław, 24.10.2015. Tomasz Maleszewski (tenor), Magdalena Jaszczak (akompaniament)"
-#    "images":
-#      "01": "operameetsoperetta1"
-#      "02": "operameetsoperetta2"
-#      "03": "operameetsoperetta3"
-#      "04": "operameetsoperetta4"
-#      "05": "operameetsoperetta5"
-
   "2015widow":
     "category": "spektakle"
     "title":
@@ -106,46 +92,6 @@ gallery:
       "05": "widow5"
       "06": "widow6"
       "07": "widow7"
-
-#  "bukowno2014":
-#    "title":
-#      "en": "Bukowno"
-#      "pl": "Bukowno"
-#    "desc":
-#      "en": "Concert in Municipal Cultural Centere in Bukowno with Sylwia Frączek (soprano) and Aleksandr Bardasau (baritone), 14.11.2014."
-#      "pl": "Koncert w Miejskim Ośrodku Kultury w Bukownie, 14.11.2014r. Wraz z Sylwią Frączek (sopran) i Aleksandrem Bardasau (baryton)"
-#    "images":
-#      "01": "bukowno1"
-#      "02": "bukowno2"
-#      "03": "bukowno3"
-#      "04": "bukowno4"
-#      "05": "bukowno5"
-#      "06": "bukowno6"
-##      "07": "bukowno7"
-#      "08": "bukowno8"
-
-#  "tarnobrzeg":
-#    "title":
-#      "en": "Tarnobrzeg"
-#      "pl": "Tarnobrzeg"
-#    "desc":
-#      "en": "40'th Anniversary of National Music School in Tarnobrzeg, 27.10.2014"
-#      "pl": "Jubileusz 40-lecia Państwowej Szkoły Muzycznej w Tarnobrzegu 27.10.2014r"
-#    "images":
-#      "01": "tarnobrzeg1"
-#      "02": "tarnobrzeg2"
-#      "03": "tarnobrzeg3"
-
-#  "wroclaw":
-#    "title":
-#      "en": "Platinum Palace Wrocław"
-#      "pl": "Platinum Palace Wrocław"
-#    "desc":
-#      "en": "The 3rd Edition of The Young Art Auction, Platinium Palace in Wrocław, 18.10.2014"
-#      "pl": "Koncert w ramach Aukcji Młodej Sztuki III, Platinum Palace we Wrocławiu, 18.10.2014r."
-#    "images":
-#      "01": "wroclaw1"
-#      "02": "wroclaw2"
 
   "zilina-noworoczny-2019":
     "category": "koncerty"
