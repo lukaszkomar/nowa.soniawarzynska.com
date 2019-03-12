@@ -33,7 +33,14 @@
          <div class="project-archive-content-wrapper">
              <header class="entry-header">
                  <h2 class="entry-title">
-                     <a href="/p/i/g/{{ page.galleryname }}/{{ img[1] }}.jpg" target="_blank" rel="bookmark">{{ site.gallery[page.galleryname].title[page.lang] }}</a>
+                     <a
+                         href="/p/i/g/{{ page.galleryname }}/{{ img[1] }}.jpg"
+                         target="_blank"
+                         rel="bookmark"
+                         data-lightbox="light"
+                         data-title="titl"
+
+                     >{{ site.gallery[page.galleryname].title[page.lang] }}</a>
                  </h2>
              </header>
              <div class="entry-meta">
