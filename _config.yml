@@ -164,6 +164,9 @@ gallery:
 
   "impressioart":
     "category": "koncerty"
+    "url":
+      "en": "photos-concerts-impressioart"
+      "pl": "zdjecia-koncerty-impressioart"
     "title":
       "en": "Impressio Art Sopot 2014"
       "pl": "Impressio Art Sopot 2014"
