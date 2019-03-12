@@ -195,6 +195,9 @@ gallery:
 
   "figaro":
     "category": "spektakle"
+    "url":
+      "en": "photos-concerts-figaro"
+      "pl": "zdjecia-koncerty-figaro"
     "title":
       "en": "“Le Nozze di Figaro”"
       "pl": "Wesele Figara"      
