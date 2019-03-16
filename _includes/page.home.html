@@ -71,10 +71,17 @@
                         <div id="instaplugin" class="elfsight-app-72e0ede1-6bf2-4538-b5b7-941913ab6e1e"></div>
 
                         <script>
+
                             //usuwa reklame
                             $(function() {
                                 $(document).ready(function () {
-                                    $("a:contains('Free Instagram Feed widget')").css("display", "none");
+
+                                    function adkill(){
+                                       console.log('adkill');
+                                        $("a:contains('Free Instagram Feed widget')").css("display", "none");
+                                    }
+
+                                    setInterval(adkill,1000);
                                 });
                             })
                         </script>
