@@ -72,16 +72,23 @@
 
                         <script>
 
+                            var iterations = 0;
+
                             //usuwa reklame
                             $(function() {
                                 $(document).ready(function () {
 
                                     function adkill(){
-                                       console.log('adkill');
+                                        iterations++;
+                                        console.log('adkill', iterations);
                                         $("a:contains('Free Instagram Feed widget')").css("display", "none");
+
+                                        if (iterations > 3) {
+                                            clearInterval(adkill);
+                                        }
                                     }
 
-                                    setInterval(adkill,1000);
+                                    setInterval(adkill,10000);
                                 });
                             })
                         </script>
