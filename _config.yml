@@ -102,11 +102,11 @@ gallery:
       "en": "photos-concerts-new-year-zilina"
       "pl": "zdjecia-koncerty-noworoczny-zilina"
     "title":
-      "en": "Koncerty Noworoczne Žilina"
+      "en": "New Year's Concerts Žilina"
       "pl": "Koncerty Noworoczne Žilina"
     "desc":
-      "en": "Koncerty Noworoczne Žilina: 17-18.01.2019r. Štátny komorný orchester, Dom Umenia Fatra Žilina (Słowacja)"
-      "pl": "Koncerty Noworoczne Žilina: 17-18.01.2019r. Štátny komorný orchester, Dom Umenia Fatra Žilina (Słowacja)"
+      "en": "New Year's Concerts: 17-18.01.2019. Štátny komorný orchester, Dom Umenia Fatra Žilina (Slovakia), fot. Roderik Kučavík"
+      "pl": "Koncerty Noworoczne Žilina: 17-18.01.2019r. Štátny komorný orchester, Dom Umenia Fatra Žilina (Słowacja), fot. Roderik Kučavík"
     "images":
       "01": "zilina1"
       "02": "zilina2"
@@ -122,11 +122,11 @@ gallery:
       "en": "photos-concerts-bydgoszcz-requiem-d-moll"
       "pl": "zdjecia-koncerty-bydgoszcz-requiem-d-moll"
     "title":
-      "en": "”Requiem d-moll” W.A.Mozart"
+      "en": "”Requiem in D minor” by W.A.Mozart"
       "pl": "”Requiem d-moll” W.A.Mozarta"
     "desc":
-      "en": "”Requiem d-moll” W.A.Mozarta: solo sopranowe, 30.10.2018r. Filharmonia Pomorska w Bydgoszczy"
-      "pl": "”Requiem d-moll” W.A.Mozarta: solo sopranowe, 30.10.2018r. Filharmonia Pomorska w Bydgoszczy"
+      "en": "”Requiem in D minor” by W.A.Mozart: soprano solo, 30.10.2018. Pomeranian Philharmony in Bydgoszcz (Poland), fot. Mariusz Talkowski"
+      "pl": "”Requiem d-moll” W.A.Mozarta: solo sopranowe, 30.10.2018r. Filharmonia Pomorska w Bydgoszczy, fot. Mariusz Talkowski"
     "images":
       "01": "bydgoszcz1"
 
@@ -136,11 +136,11 @@ gallery:
       "en": "photos-concerts-zilina-allegretto-2018"
       "pl": "zdjecia-koncerty-zilina-allegretto-2018"
     "title":
-      "en": "Festiwal Allegretto Žilina"
+      "en": "Allegretto Festival Žilina"
       "pl": "Festiwal Allegretto Žilina"
     "desc":
-      "en": "Festiwal Allegretto Žilina: Recital pieśni słowiańskich, 19.04.2018r. Dom Umenia Fatra Žilina (Słowacja)"
-      "pl": "Festiwal Allegretto Žilina: Recital pieśni słowiańskich, 19.04.2018r. Dom Umenia Fatra Žilina (Słowacja)"
+      "en": "Allegretto Festival Žilina: The Chamber Concert, 19.04.2018. Dom Umenia Fatra Žilina (Slovakia), fot. Roderik Kučavík"
+      "pl": "Festiwal Allegretto Žilina: Koncert kameralny, 19.04.2018r. Dom Umenia Fatra Žilina (Słowacja), fot. Roderik Kučavík"
     "images":
       "01": "zilina1"
       "02": "zilina2"
@@ -180,18 +180,6 @@ gallery:
       "04": "impressioart4"
       "05": "impressioart5"
       "06": "impressioart6"
-
-#  "wroclawd":
-#    "title":
-#      "en": "Concert at the Dominican Monastery in Wrocław"
-#      "pl": "Koncert u Dominikanów we Wrocławiu"
-#    "desc":
-#      "en": "Concert at the Dominican Monastery in Wrocław, 17.07.2014"
-#      "pl": "Koncert u Dominikanów we Wrocławiu, 17.07.2014"
-#    "images":
-#      "01": "wroclaw1"
-#      "02": "wroclaw2"
-#      "03": "wroclaw3"
 
   "figaro":
     "category": "spektakle"
@@ -242,23 +230,6 @@ gallery:
       "11": "rodelinda11"
       "12": "rodelinda12"
       "13": "rodelinda13"
-      
-#  "bukowno":
-#    "title":
-#      "en": "Concert in Bukowno"
-#      "pl": "Koncert w Bukownie"
-#    "desc":
-#      "en": "Concert took place in Municipal Cultural Centre in Bukowno, 11.05.2013"
-#      "pl": "Koncert odbył się w Miejskim Ośrodku Kultury w Bukownie 11.05.2013r."
-#    "images":
-#      "01": "bukowno1"
-#      "02": "bukowno2"
-#      "03": "bukowno3"
-#      "04": "bukowno4"
-#      "05": "bukowno5"
-#      "06": "bukowno6"
-#      "07": "bukowno7"
-
 
 # Struktura Repertuaru
 repertoire:
