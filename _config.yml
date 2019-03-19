@@ -856,6 +856,35 @@ repertoire:
 #        "en": "G.Verdi Violetta&Germont duet „Madamigella Valery... Imponete...” from “Traviata”"
 
 recordings:
+  "live":
+    "title":
+      "pl": Live
+      "en": Live
+    "items":
+      "01":
+        "pl":  "G.Puccini – aria Mimi „Si, mi chiamano Mimi” z opery „Cyganeria”"
+        "en":  "Mimi’s aria „Si, mi chiamano Mimi” from Puccini’s opera „La Boheme”"
+        "url": "https://www.youtube.com/embed/uDleknQ5g4k"
+      "02":
+        "pl":  "Z.Merta – „Ave Maria” z „Via Lucis”"
+        "en":  "„Ave Maria” from Merta’s „Via Lucis”"
+        "url": "https://www.youtube.com/embed/cJIMoXqP9KQ"
+      "03":
+        "pl":  "W.A.Mozart - aria Paminy „Ach, ich fühl’s” z opery ”Czarodziejski flet”"
+        "en":  "Pamina’s aria „Ach, ich fühl’s” from Mozart’s opera „Die Zauberflöte”"
+        "url": "https://www.youtube.com/embed/eKKcvaKO9Aw"
+      "04":
+        "pl":  "A.Dvořák - aria Rusałki „Měsíčku na nebi hlubokém” z opery „Rusałka”"
+        "en":  "Rusalka's aria „Měsíčku na nebi hlubokém” from Dvořák's opera „Rusalka”"
+        "url": "https://www.youtube.com/embed/9KH5qy36h3A"
+      "05":
+        "pl":  "G.Bizet - aria Micaëli „C'est des contrebandiers... Je dis...” z opery „Carmen”"
+        "en":  "Micaëla's aria „C'est des contrebandiers... Je dis...” from Bizet's opera „Carmen”"
+        "url": "https://www.youtube.com/embed/YT4m0xD5ITM"
+      "06":
+        "pl":  "F.Maklakiewicz „Kocham Cię”"
+        "en":  "F.Maklakiewicz „Kocham Cię”"
+        "url": "https://www.youtube.com/embed/fPJOed8c-VQ"
   "demos":
     "title":
       "pl": Demo
@@ -873,16 +902,3 @@ recordings:
         "pl":  "G.Puccini – aria Magdy „Chi il bel sogno di Doretta” z opery „Jaskółka”"
         "en":  "Magda’s aria „Chi il bel sogno di Doretta” from Puccini’s opera „La Rondine”"
         "url": "https://www.youtube.com/embed/-wKyDWcQNqM"
-  "live":
-    "title":
-      "pl": Live
-      "en": Live
-    "items":
-      "01":
-        "pl":  "G.Puccini – aria Mimi „Si, mi chiamano Mimi” z opery „Cyganeria”"
-        "en":  "Mimi’s aria „Si, mi chiamano Mimi” from Puccini’s opera „La Boheme”"
-        "url": "https://www.youtube.com/embed/uDleknQ5g4k"
-      "02":
-        "pl":  "Z.Merta – „Ave Maria” z „Via Lucis”"
-        "en":  "„Ave Maria” from Merta’s „Via Lucis”"
-        "url": "https://www.youtube.com/embed/cJIMoXqP9KQ"
