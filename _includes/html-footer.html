@@ -5,13 +5,13 @@
 <div id="cookie-law" class="widget widget_eu_cookie_law_widget" style="display: block;">
     <div class="hide-on-button ads-active" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
         {% if page.lang == 'pl' %}
+            <input type="button" value="Akceptuję" class="accept" onclick="$('#cookie-law').remove();">
             Polityka prywatności i Cookies: Ta strona używa plików cookie. Kożystając ze strony zgadzasz sie na ich użycie.
             Więcej o plikach cookie można dowiedziec sie tutaj: <a href="https://automattic.com/cookies">Polityka Cookie</a>
-            <span class="accept" onclick="$('#cookie-law').remove();">Akceptuję</span>
         {% else %}
+            <input type="button" value="Close and accept" class="accept" onclick="$('#cookie-law').remove();">
             Privacy &amp; Cookies: This site uses cookies. By continuing to use this website, you agree to their use.
             To find out more, including how to control cookies, see here: <a href="https://automattic.com/cookies">Cookie Policy</a>
-            <input type="button" value="Close and accept" class="accept" onclick="$('#cookie-law').remove();">
         {% endif %}
     </div>
 </div>
