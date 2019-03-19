@@ -4,14 +4,15 @@
 
 <div class="widget widget_eu_cookie_law_widget" style="display: block;">
     <div class="hide-on-button ads-active" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
-        <form method="post">
-            <input type="submit" value="Close and accept" class="accept">
-
+        {% if page.lang == 'pl' %}
+            Polityka prywatności i Cookies: Ta strona używa plików cookie. Kożystając ze strony zgadzasz sie na ich użycie<br>
+            Więcej o plikach cookie można dowiedziec sie tutaj: <a href="https://automattic.com/cookies">Polityka Cookie</a>
+            <span class="accept">Akceptuję</span>
+        {% else %}
             Privacy &amp; Cookies: This site uses cookies. By continuing to use this website, you agree to their use. <br>
-            To find out more, including how to control cookies, see here:
-            <a href="https://automattic.com/cookies">
-                Cookie Policy		</a>
-        </form>
+            To find out more, including how to control cookies, see here: <a href="https://automattic.com/cookies">Cookie Policy</a>
+            <span class="accept">Close and accept</span>
+        {% endif %}
     </div>
 </div>
 
