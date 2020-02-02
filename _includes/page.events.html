@@ -3,15 +3,15 @@
 <h3>{{ event[1].title[page.lang] }}</h3>
 
 
-{% if event[1].url != "" %}
-  <a href="{{ event[1].url }}" target="_blank">
-    {{ event[1].date }} - {{ event[1].place[page.lang] }}
-  </a>
-{% else %}
-  <p>
-    {{ event[1].date }} - {{ event[1].place[page.lang] }}
-  </p>
-{% endif %}
+<p>
+{{ event[1].date }} -
+
+{% if event[1].url != "" %}<a href="{{ event[1].url }}" target="_blank">{% endif %}
+
+{{ event[1].place[page.lang] }}
+
+{% if event[1].url != "" %}</a>{% endif %}
+</p>
 
 {% if event[1].tickets != "" %}
   <a href="{{ event[1].tickets }}" target="_blank">
