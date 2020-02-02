@@ -884,4 +884,12 @@ events:
     "place":
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
       "en": "en Teatr Wielki - Opera Narodowa w Warszawie"
-
+  "20200303":
+    "date": "3 marca 2020"
+    "tickets": ""
+    "title":
+      "pl": "Koncert pieśni polskich"
+      "en": "en Koncert pieśni polskich"
+    "place":
+      "pl": "Muzeum Zachodniokaszubskie w Bytowie"
+      "en": "en Muzeum Zachodniokaszubskie w Bytowie"
