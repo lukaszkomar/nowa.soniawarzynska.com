@@ -883,10 +883,10 @@ events:
     "url": "https://teatrwielki.pl/repertuar/kalendarium/2019-2020/czarodziejski-flet/termin/2020-02-22_19-00/"
     "title":
       "pl": "Czarodziejski Flet"
-      "en": "en Czarodziejski Flet"
+      "en": "Die Zauberflöte"
     "place":
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
-      "en": "en Teatr Wielki - Opera Narodowa w Warszawie"
+      "en": "Grand Theatre - National Opera in Warsaw"
   "200303":
     "date":
       "pl": "3 marca 2020"
@@ -895,7 +895,115 @@ events:
     "url": ""
     "title":
       "pl": "Koncert pieśni polskich"
-      "en": "en Koncert pieśni polskich"
+      "en": "Recital of polish songs"
     "place":
       "pl": "Muzeum Zachodniokaszubskie w Bytowie"
-      "en": "en Muzeum Zachodniokaszubskie w Bytowie"
+      "en": "West-Cassubian Museum in Bytow"
+  "200308":
+    "date":
+      "pl": "8 marca 2020"
+      "en": "8 March 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Wieczór z arią"
+      "en": "An evening of aria"
+    "place":
+      "pl": "Spółdzielczy Dom Kultury - Rumia Janowo"
+      "en": "Community Centre - Rumia Janowo"
+  "200309":
+    "date":
+      "pl": "9 marca 2020"
+      "en": "9 March 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Wieczór z arią"
+      "en": "An evening of aria"
+    "place":
+      "pl": "Gdańsk Suchanino"
+      "en": "Gdańsk Suchanino"
+  "200321":
+    "date":
+      "pl": "21 marca 2020"
+      "en": "21 March 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Koncert pieśni polskich"
+      "en": "Recital of polish songs"
+    "place":
+      "pl": "Radio Gdańsk - Studio Koncertowe im. Janusza Hajduna"
+      "en": "Radio Gdańsk - Janusz Hajdun's Concert Studio"
+  "200327":
+    "date":
+      "pl": "27 marca 2020"
+      "en": "27 March 2020"
+    "tickets": "https://operakrolewska.pl/repetoire/dziady-widma-mickiewicz-moniuszko-22032020/"
+    "url": "https://operakrolewska.pl/repetoire/dziady-widma-mickiewicz-moniuszko-22032020/"
+    "title":
+      "pl": "Dziady - Widma"
+      "en": "Dziady - Widma"
+    "place":
+      "pl": "Polska Opera Królewska w Warszawie"
+      "en": "Polish Royal Opera in Warsaw"
+  "200425":
+    "date":
+      "pl": "25 kwietnia 2020"
+      "en": "25 April 2020"
+    "tickets": "https://operabaltycka.pl/pl/repertuar/opera-si/2020-04-25"
+    "url": "https://operabaltycka.pl/pl/repertuar/opera-si/2020-04-25"
+    "title":
+      "pl": "Opera? Si!"
+      "en": "Opera? Si!"
+    "place":
+      "pl": "Opera Bałtycka w Gdańsku"
+      "en": "Baltic Opera in Gdańsk"
+  "200503":
+    "date":
+      "pl": "3 maja 2020"
+      "en": "3 May 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Ave Maria"
+      "en": "Ave Maria"
+    "place":
+      "pl": "Kościół pw. Niepokalanego Poczęcia NMP w Ostrowie"
+      "en": "Immaculate Conception's Church in Ostrowo"
+  "200827":
+    "date":
+      "pl": "27 sierpnia 2020"
+      "en": "27 August 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Czarodziejski Flet"
+      "en": "Die Zauberflöte"
+    "place":
+      "pl": "Opernspiele Munot, Schaffhausen"
+      "en": "Opernspiele Munot, Schaffhausen"
+  "200828":
+    "date":
+      "pl": "28 sierpnia 2020"
+      "en": "28 August 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Czarodziejski Flet"
+      "en": "Die Zauberflöte"
+    "place":
+      "pl": "Opernspiele Munot, Schaffhausen"
+      "en": "Opernspiele Munot, Schaffhausen"
+  "200829":
+    "date":
+      "pl": "29 sierpnia 2020"
+      "en": "29 August 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Czarodziejski Flet"
+      "en": "Die Zauberflöte"
+    "place":
+      "pl": "Opernspiele Munot, Schaffhausen"
+      "en": "Opernspiele Munot, Schaffhausen"
