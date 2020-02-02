@@ -1,0 +1,10 @@
+{% for section in site.events %}
+
+  <h4>{{ title[page.lang] }}</h4>
+  <p>{{ place[page.lang] }}</p>
+
+{% if tickets %}
+##tick
+{% endif %}
+
+{% endfor %}

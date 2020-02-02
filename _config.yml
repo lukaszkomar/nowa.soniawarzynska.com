@@ -873,3 +873,15 @@ recordings:
         "pl":  "G.Puccini – aria Magdy „Chi il bel sogno di Doretta” z opery „Jaskółka”"
         "en":  "Magda’s aria „Chi il bel sogno di Doretta” from Puccini’s opera „La Rondine”"
         "url": "https://www.youtube.com/embed/-wKyDWcQNqM"
+
+events:
+  "20200222":
+    "date": "22 lutego 2020"
+    "tickets": "https://teatrwielki.pl/repertuar/kalendarium/2019-2020/czarodziejski-flet/termin/2020-02-22_19-00/"
+    "title":
+      "pl": "Czarodziejski Flet"
+      "en": "en Czarodziejski Flet"
+    "place":
+      "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
+      "en": "en Teatr Wielki - Opera Narodowa w Warszawie"
+
