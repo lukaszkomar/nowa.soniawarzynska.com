@@ -1,12 +1,16 @@
 {% for event in site.events %}
 
-<h4>{{ event[1].title[page.lang] }}</h4>
-<p>{{ event[1].date }} - {{ event[1].place[page.lang] }}</p>
+<h3>{{ event[1].title[page.lang] }}</h3>
+
 
 {% if event[1].url != "" %}
   <a href="{{ event[1].url }}" target="_blank">
-      {% if page.lang == 'pl' %}Zobacz więcej ... {% else %}See more ...{% endif %}
+    {{ event[1].date }} - {{ event[1].place[page.lang] }}
   </a>
+{% else %}
+  <p>
+    {{ event[1].date }} - {{ event[1].place[page.lang] }}
+  </p>
 {% endif %}
 
 {% if event[1].tickets != "" %}
