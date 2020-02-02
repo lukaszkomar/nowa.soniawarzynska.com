@@ -876,8 +876,9 @@ recordings:
 
 events:
   "20200222":
-    "date": "22 lutego 2020"
-    "tickets": "https://teatrwielki.pl/repertuar/kalendarium/2019-2020/czarodziejski-flet/termin/2020-02-22_19-00/"
+    "date": "2020.02.22"
+    "tickets": "https://teatrwielki.pl/repertuar/kalendarium/#/f/0/22-22"
+    "url": "https://teatrwielki.pl/repertuar/kalendarium/2019-2020/czarodziejski-flet/termin/2020-02-22_19-00/"
     "title":
       "pl": "Czarodziejski Flet"
       "en": "en Czarodziejski Flet"
@@ -885,44 +886,9 @@ events:
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
       "en": "en Teatr Wielki - Opera Narodowa w Warszawie"
   "20200303":
-    "date": "3 marca 2020"
+    "date": "2020.03.03"
     "tickets": ""
-    "title":
-      "pl": "Koncert pieśni polskich"
-      "en": "en Koncert pieśni polskich"
-    "place":
-      "pl": "Muzeum Zachodniokaszubskie w Bytowie"
-      "en": "en Muzeum Zachodniokaszubskie w Bytowie"
-  "120200222":
-    "date": "22 lutego 2020"
-    "tickets": "https://teatrwielki.pl/repertuar/kalendarium/2019-2020/czarodziejski-flet/termin/2020-02-22_19-00/"
-    "title":
-      "pl": "Czarodziejski Flet"
-      "en": "en Czarodziejski Flet"
-    "place":
-      "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
-      "en": "en Teatr Wielki - Opera Narodowa w Warszawie"
-  "120200303":
-    "date": "3 marca 2020"
-    "tickets": ""
-    "title":
-      "pl": "Koncert pieśni polskich"
-      "en": "en Koncert pieśni polskich"
-    "place":
-      "pl": "Muzeum Zachodniokaszubskie w Bytowie"
-      "en": "en Muzeum Zachodniokaszubskie w Bytowie"
-  "220200222":
-    "date": "22 lutego 2020"
-    "tickets": "https://teatrwielki.pl/repertuar/kalendarium/2019-2020/czarodziejski-flet/termin/2020-02-22_19-00/"
-    "title":
-      "pl": "Czarodziejski Flet"
-      "en": "en Czarodziejski Flet"
-    "place":
-      "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
-      "en": "en Teatr Wielki - Opera Narodowa w Warszawie"
-  "220200303":
-    "date": "3 marca 2020"
-    "tickets": ""
+    "url": ""
     "title":
       "pl": "Koncert pieśni polskich"
       "en": "en Koncert pieśni polskich"
