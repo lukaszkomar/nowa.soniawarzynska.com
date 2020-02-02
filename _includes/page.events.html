@@ -1,26 +1,23 @@
 {% for event in site.events %}
 
+<p style="margin: 0;">{{ event[1].date[[page.lang]] }}</p>
+
 <h3>{{ event[1].title[page.lang] }}</h3>
 
+<p style="margin: 0;">{{ event[1].place[page.lang] }}</p>
 
-<p style="margin: 0;">
-{{ event[1].date }} -
-
-{% if event[1].url != "" %}<a href="{{ event[1].url }}" target="_blank">{% endif %}
-
-{{ event[1].place[page.lang] }}
-
-{% if event[1].url != "" %}</a>{% endif %}
-</p>
+{% if event[1].url != "" %}
+  <a href="{{ event[1].url }}" target="_blank">
+      {% if page.lang == 'pl' %}zobacz szczegóły{% else %}see more{% endif %}
+  </a><br/>
+{% endif %}
 
 {% if event[1].tickets != "" %}
   <a href="{{ event[1].tickets }}" target="_blank">
-      {% if page.lang == 'pl' %}Kup bilety{% else %}Buy tickets{% endif %}
-  </a>
+      {% if page.lang == 'pl' %}kup bilet{% else %}buy ticket{% endif %}
+  </a><br/>
 {% endif %}
 
-{% if forloop.last == false %}
-<hr>
-{% endif %}
+{% if forloop.last == false %}<hr>{% endif %}
 
 {% endfor %}

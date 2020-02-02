@@ -875,8 +875,10 @@ recordings:
         "url": "https://www.youtube.com/embed/-wKyDWcQNqM"
 
 events:
-  "20200222":
-    "date": "2020.02.22"
+  "200222":
+    "date":
+      "pl": "22 lutego 2020"
+      "en": "22 February 2020"
     "tickets": "https://teatrwielki.pl/repertuar/kalendarium/#/f/0/22-22"
     "url": "https://teatrwielki.pl/repertuar/kalendarium/2019-2020/czarodziejski-flet/termin/2020-02-22_19-00/"
     "title":
@@ -885,8 +887,10 @@ events:
     "place":
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
       "en": "en Teatr Wielki - Opera Narodowa w Warszawie"
-  "20200303":
-    "date": "2020.03.03"
+  "200303":
+    "date":
+      "pl": "3 marca 2020"
+      "en": "3 March 2020"
     "tickets": ""
     "url": ""
     "title":
