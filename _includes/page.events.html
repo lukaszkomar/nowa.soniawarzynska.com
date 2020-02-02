@@ -3,7 +3,7 @@
 <h4>{{ event[1].title[page.lang] }}</h4>
 <p>{{ event[1].date }} - {{ event[1].place[page.lang] }}</p>
 
-{% if event[1].tickets %}
+{% if event[1].tickets != "" %}
   <a href="{{ event[1].tickets }}" target="_blank">{% if page.lang == 'pl' %}Kup bilety{% else %}Buy tickets{% endif %}</a>
 {% endif %}
 
