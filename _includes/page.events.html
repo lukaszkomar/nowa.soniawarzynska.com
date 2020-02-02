@@ -1,9 +1,9 @@
-{% for section in site.events %}
+{% for event in site.events %}
 
-  <h4>{{ title[page.lang] }}</h4>
-  <p>{{ place[page.lang] }}</p>
+  <h4>{{ event[1].title[page.lang] }}</h4>
+  <p>{{ event[1].place[page.lang] }}</p>
 
-{% if tickets %}
+{% if event[1].tickets %}
 ##tick
 {% endif %}
 
