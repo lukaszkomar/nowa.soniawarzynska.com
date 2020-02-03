@@ -2729,7 +2729,7 @@ object {
 	}
 
 	.main-navigation a {
-		padding: 1em 1em;
+		padding: 1em 0.8em;
 	}
 
 	.site-header-fixed.header-top .main-navigation a,
