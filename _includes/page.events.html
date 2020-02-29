@@ -1,5 +1,7 @@
 {% for event in site.events %}
 
+<div id="event1" onload="hideEvent('event1', '2019-02-02')">
+
 <p style="margin: 0;">{{ event[1].date[[page.lang]] }}</p>
 
 <h3>{{ event[1].title[page.lang] }}</h3>
@@ -20,4 +22,14 @@
 
 {% if forloop.last == false %}<hr>{% endif %}
 
+</div>
+
 {% endfor %}
+
+<script>
+    function hideEvent(id, eventDate) {
+        if (new Date(eventDate) < new Date()) {
+            console.log('past', id, eventDate);
+        }
+    }
+</script>
