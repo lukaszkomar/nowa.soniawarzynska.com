@@ -875,7 +875,7 @@ recordings:
         "url": "https://www.youtube.com/embed/-wKyDWcQNqM"
 
 events:
-  "2020-02-29":
+  "2020-02-29 23:59:59":
     "date":
       "pl": "22 lutego 2020"
       "en": "22 February 2020"
