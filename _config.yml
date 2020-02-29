@@ -875,7 +875,7 @@ recordings:
         "url": "https://www.youtube.com/embed/-wKyDWcQNqM"
 
 events:
-  "200222":
+  "2020-02-22":
     "date":
       "pl": "22 lutego 2020"
       "en": "22 February 2020"
@@ -887,7 +887,7 @@ events:
     "place":
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
       "en": "Grand Theatre - National Opera in Warsaw"
-  "200303":
+  "2020-03-03":
     "date":
       "pl": "3 marca 2020"
       "en": "3 March 2020"
@@ -899,7 +899,7 @@ events:
     "place":
       "pl": "Muzeum Zachodniokaszubskie w Bytowie"
       "en": "West-Cassubian Museum in Bytow"
-  "200308":
+  "2020-03-08":
     "date":
       "pl": "8 marca 2020"
       "en": "8 March 2020"
@@ -911,7 +911,7 @@ events:
     "place":
       "pl": "Spółdzielczy Dom Kultury - Rumia Janowo"
       "en": "Community Centre - Rumia Janowo"
-  "200309":
+  "2020-03-09":
     "date":
       "pl": "9 marca 2020"
       "en": "9 March 2020"
@@ -923,7 +923,7 @@ events:
     "place":
       "pl": "Gdańsk Suchanino"
       "en": "Gdańsk Suchanino"
-  "200321":
+  "2020-03-21":
     "date":
       "pl": "21 marca 2020"
       "en": "21 March 2020"
@@ -935,7 +935,7 @@ events:
     "place":
       "pl": "Radio Gdańsk - Studio Koncertowe im. Janusza Hajduna"
       "en": "Radio Gdańsk - Janusz Hajdun's Concert Studio"
-  "200327":
+  "2020-03-27":
     "date":
       "pl": "27 marca 2020"
       "en": "27 March 2020"
@@ -947,7 +947,7 @@ events:
     "place":
       "pl": "Polska Opera Królewska w Warszawie"
       "en": "Polish Royal Opera in Warsaw"
-  "200425":
+  "2020-04-25":
     "date":
       "pl": "25 kwietnia 2020"
       "en": "25 April 2020"
@@ -959,7 +959,7 @@ events:
     "place":
       "pl": "Opera Bałtycka w Gdańsku"
       "en": "Baltic Opera in Gdańsk"
-  "200503":
+  "2020-05-03":
     "date":
       "pl": "3 maja 2020"
       "en": "3 May 2020"
@@ -971,7 +971,7 @@ events:
     "place":
       "pl": "Kościół pw. Niepokalanego Poczęcia NMP w Ostrowie"
       "en": "Immaculate Conception's Church in Ostrowo"
-  "200827":
+  "2020-08-27":
     "date":
       "pl": "27 sierpnia 2020"
       "en": "27 August 2020"
@@ -983,7 +983,7 @@ events:
     "place":
       "pl": "Opernspiele Munot, Schaffhausen"
       "en": "Opernspiele Munot, Schaffhausen"
-  "200828":
+  "2020-08-28":
     "date":
       "pl": "28 sierpnia 2020"
       "en": "28 August 2020"
@@ -995,7 +995,7 @@ events:
     "place":
       "pl": "Opernspiele Munot, Schaffhausen"
       "en": "Opernspiele Munot, Schaffhausen"
-  "200829":
+  "2020-08-29":
     "date":
       "pl": "29 sierpnia 2020"
       "en": "29 August 2020"
