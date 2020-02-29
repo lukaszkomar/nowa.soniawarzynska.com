@@ -1,7 +1,8 @@
 {% for event in site.events %}
 
 
-#{% if (event[0] | date: '%s') < ('now' | date: '%s') %}
+#{% if event[0] | date: '%s' < 'now' | date: '%s' %}
+
 se{{event[0] | date: '%s'}}
 snow{{'now' | date: '%s'}}
 
