@@ -2,9 +2,11 @@
 
 
 #{% if (event[0] | date: '%s') < ('now' | date: '%s') %}
+se{{event[0] | date: '%s'}}
+snow{{'now' | date: '%s'}}
 
-x{{event[0] | date: '%s'}}
-y{{'now' | date: '%s'}}
+fe{{event[0] | date: "%Y-%m-%d" }}
+fn{{'now' | date: "%Y-%m-%d" }}
 {% endif %}
 
 <div class="eventItem" data-event-date="{{ event[0] }}">
