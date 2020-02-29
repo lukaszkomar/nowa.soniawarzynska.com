@@ -1,12 +1,10 @@
 {% for event in site.events %}
 
+{% assign nowunix = 'now' | date: '%s' | plus: 0 %}
 
-
-{% if event[0] | date: '%s' | plus: 0  < 'now' | date: '%s' | plus: 0 %}
-.
-
-
-
+{{nowunix}}
+{% if (event[0] | date: '%s' | plus: 0)  < ('now' | date: '%s' | plus: 0) %}
+,
 {% endif %}
 
 <div class="eventItem" data-event-date="{{ event[0] }}">
