@@ -1,13 +1,15 @@
 {% for event in site.events %}
 
 
-#{% if event[0] | date: '%s' < 'now' | date: '%s' %}
+#
+{% if event[0] | date: '%s' < 'now' | date: '%s' %}
 
-se{{event[0] | date: '%s'}}
-snow{{'now' | date: '%s'}}
+se{{event[0] | date: '%s'}}        vs sn{{'now' | date: '%s'}}<br>
+fe{{event[0] | date: "%Y-%m-%d" }} vs fn{{'now' | date: "%Y-%m-%d" }}<br>
 
-fe{{event[0] | date: "%Y-%m-%d" }}
-fn{{'now' | date: "%Y-%m-%d" }}
+c{{ if event[0] | date: '%s' < 'now' | date: '%s' }}c
+
+
 {% endif %}
 
 <div class="eventItem" data-event-date="{{ event[0] }}">
