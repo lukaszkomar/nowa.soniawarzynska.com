@@ -7,7 +7,7 @@
 se{{event[0] | date: '%s'}}        vs sn{{'now' | date: '%s'}}<br>
 fe{{event[0] | date: "%Y-%m-%d" }} vs fn{{'now' | date: "%Y-%m-%d" }}<br>
 
-c{{ if event[0] | date: '%s' < 'now' | date: '%s' }}c
+c{{ if event[0] | date: '%s' < 'now' | date: '%s' | plus: 0 }}c
 
 
 {% endif %}
