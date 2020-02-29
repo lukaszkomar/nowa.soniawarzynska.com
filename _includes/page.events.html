@@ -1,9 +1,7 @@
 {% for event in site.events %}
 
-{% capture nowunix %}{{}{% endcapture %}
-{% capture posttime %}{{}}{% endcapture %}
 
-#{% if event[0] | date: '%s' < 'now' | date: '%s' %}
+#{% if (event[0] | date: '%s') < ('now' | date: '%s') %}
 past
 {% endif %}
 
