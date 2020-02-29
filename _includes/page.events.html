@@ -4,9 +4,6 @@
 {% assign eventDateAsSeconds = event[0] | date: '%s' | plus: 0 %}
 
 {% if eventDateAsSeconds  > nowDateAsSeconds %}
-,
-{% endif %}
-
 <div class="eventItem" data-event-date="{{ event[0] }}">
 
 <p style="margin: 0;">{{ event[1].date[[page.lang]] }}</p>
@@ -30,6 +27,7 @@
 {% if forloop.last == false %}<hr>{% endif %}
 
 </div>
+{% endif %}
 
 {% endfor %}
 
