@@ -28,8 +28,11 @@
 
 <script>
     function hideEvent(id, eventDate) {
+        console.log('hideEvent', id, eventDate);
         if (new Date(eventDate) < new Date()) {
             console.log('past', id, eventDate);
+        } else {
+            console.log('notpast', id, eventDate);
         }
     }
 </script>
