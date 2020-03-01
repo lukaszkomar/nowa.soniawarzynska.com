@@ -875,7 +875,7 @@ recordings:
         "url": "https://www.youtube.com/embed/-wKyDWcQNqM"
 
 events:
-  "2020-02-29 23:59:59":
+  "2020-02-22":
     "date":
       "pl": "22 lutego 2020"
       "en": "22 February 2020"
@@ -923,6 +923,18 @@ events:
     "place":
       "pl": "Gdańsk Suchanino"
       "en": "Gdańsk Suchanino"
+  "2020-03-10":
+    "date":
+      "pl": "10 marca 2020"
+      "en": "10 March 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Wieczór z arią"
+      "en": "An evening of aria"
+    "place":
+      "pl": "Władysławowo"
+      "en": "Władysławowo"
   "2020-03-21":
     "date":
       "pl": "21 marca 2020"
