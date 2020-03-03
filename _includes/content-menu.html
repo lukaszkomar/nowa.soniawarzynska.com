@@ -70,36 +70,35 @@
                   {% endif %}
                 {% endcomment %}
 
-                  {% if page.lang == 'pl' %}
-                      {% if    page.name  == 'biografia.html'                         %}<a href="/biography"             >EN</a>
-                      {% elsif page.name  == 'kalendarz.html'                         %}<a href="/schedule"              >EN</a>
-                      {% elsif page.name  == 'repertuar.html'                         %}<a href="/repertoire"            >EN</a>
-                      {% elsif page.name  == 'zdjecia.html'                           %}<a href="/photos"                >EN</a>
-                      {% elsif page.name  == 'zdjecia-portrety.html'                  %}<a href="/photos-portraits"      >EN</a>
-                      {% elsif page.name  == 'zdjecia-koncerty.html'                  %}<a href="/photos-concerts"       >EN</a>
-                      {% elsif page.name  == 'zdjecia-spektakle.html'                 %}<a href="/photos-production"     >EN</a>
-                      {% elsif page.name  == 'zdjecia-o-wysokiej-rozdzielczosci.html' %}<a href="/photos-high-resolution">EN</a>
-                      {% elsif page.name  == 'nagrania.html'                          %}<a href="/recordings"            >EN</a>
-                      {% elsif page.name  == 'prasa.html'                             %}<a href="/press"                 >EN</a>
-                      {% elsif page.name  == 'kontakt.html'                           %}<a href="/contact"               >EN</a>
-                      {% else                                                         %}<a href="/en"                    >EN</a>
-                      {% endif %}
-                  {% else %}
-                      {% if    page.name  == 'biography.html'              %}<a href="/biografia"                        >PL</a>
-                      {% elsif page.name  == 'schedule.html'               %}<a href="/kalendarz"                        >PL</a>
-                      {% elsif page.name  == 'repertoire.html'             %}<a href="/repertuar"                        >PL</a>
-                      {% elsif page.name  == 'photos.html'                 %}<a href="/zdjecia"                          >PL</a>
-                      {% elsif page.name  == 'photos-portraits.html'       %}<a href="/zdjecia-portrety"                 >PL</a>
-                      {% elsif page.name  == 'photos-concerts.html'        %}<a href="/zdjecia-koncerty"                 >PL</a>
-                      {% elsif page.name  == 'photos-production.html'      %}<a href="/zdjecia-spektakle"                >PL</a>
-                      {% elsif page.name  == 'photos-high-resolution.html' %}<a href="/zdjecia-o-wysokiej-rozdzielczosci">PL</a>
-                      {% elsif page.name  == 'recordings.html'             %}<a href="/nagrania"                         >PL</a>
-                      {% elsif page.name  == 'press.html'                  %}<a href="/prasa"                            >PL</a>
-                      {% elsif page.name  == 'contact.html'                %}<a href="/kontakt"                          >PL</a>
-                      {% else                                              %}<a href="/"                                 >PL</a>
-                      {% endif %}
-                  {% endif %}
-.
+                {% if page.lang == 'pl' %}
+                    {% if    page.name  == 'biografia.html'                         %}<a href="/biography"             >EN</a>
+                    {% elsif page.name  == 'kalendarz.html'                         %}<a href="/schedule"              >EN</a>
+                    {% elsif page.name  == 'repertuar.html'                         %}<a href="/repertoire"            >EN</a>
+                    {% elsif page.name  == 'zdjecia.html'                           %}<a href="/photos"                >EN</a>
+                    {% elsif page.name  == 'zdjecia-portrety.html'                  %}<a href="/photos-portraits"      >EN</a>
+                    {% elsif page.name  == 'zdjecia-koncerty.html'                  %}<a href="/photos-concerts"       >EN</a>
+                    {% elsif page.name  == 'zdjecia-spektakle.html'                 %}<a href="/photos-production"     >EN</a>
+                    {% elsif page.name  == 'zdjecia-o-wysokiej-rozdzielczosci.html' %}<a href="/photos-high-resolution">EN</a>
+                    {% elsif page.name  == 'nagrania.html'                          %}<a href="/recordings"            >EN</a>
+                    {% elsif page.name  == 'prasa.html'                             %}<a href="/press"                 >EN</a>
+                    {% elsif page.name  == 'kontakt.html'                           %}<a href="/contact"               >EN</a>
+                    {% else                                                         %}<a href="/en"                    >EN</a>
+                    {% endif %}
+                {% else %}
+                    {% if    page.name  == 'biography.html'              %}<a href="/biografia"                        >PL</a>
+                    {% elsif page.name  == 'schedule.html'               %}<a href="/kalendarz"                        >PL</a>
+                    {% elsif page.name  == 'repertoire.html'             %}<a href="/repertuar"                        >PL</a>
+                    {% elsif page.name  == 'photos.html'                 %}<a href="/zdjecia"                          >PL</a>
+                    {% elsif page.name  == 'photos-portraits.html'       %}<a href="/zdjecia-portrety"                 >PL</a>
+                    {% elsif page.name  == 'photos-concerts.html'        %}<a href="/zdjecia-koncerty"                 >PL</a>
+                    {% elsif page.name  == 'photos-production.html'      %}<a href="/zdjecia-spektakle"                >PL</a>
+                    {% elsif page.name  == 'photos-high-resolution.html' %}<a href="/zdjecia-o-wysokiej-rozdzielczosci">PL</a>
+                    {% elsif page.name  == 'recordings.html'             %}<a href="/nagrania"                         >PL</a>
+                    {% elsif page.name  == 'press.html'                  %}<a href="/prasa"                            >PL</a>
+                    {% elsif page.name  == 'contact.html'                %}<a href="/kontakt"                          >PL</a>
+                    {% else                                              %}<a href="/"                                 >PL</a>
+                    {% endif %}
+                {% endif %}
                 </span>
 {% comment %}
                 <a href="mailto:contact@soniawarzynska.com" class="site-top-content-2" style="
