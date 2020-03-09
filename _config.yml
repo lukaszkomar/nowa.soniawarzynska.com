@@ -947,6 +947,30 @@ events:
     "place":
       "pl": "Kościół pw. Niepokalanego Poczęcia NMP w Ostrowie"
       "en": "Immaculate Conception's Church in Ostrowo"
+  "2020-05-03":
+    "date":
+      "pl": "3 maja 2020"
+      "en": "3 May 2020"
+    "tickets": ""
+    "url": ""
+    "title":
+      "pl": "Ave Maria"
+      "en": "Ave Maria"
+    "place":
+      "pl": "Kościół Gwiazda Morza w Sopocie"
+      "en": "The Star of the Sea Church in Sopot"
+  "2020-08-11":
+    "date":
+      "pl": "11 sierpnia 2020"
+      "en": "11 August 2020"
+    "tickets": "http://www.festiwalkiepury.pl/bilety_13_0.html"
+    "url": "http://www.festiwalkiepury.pl/home.html"
+    "title":
+      "pl": "Koncert ESTRADA MŁODYCH w ramach 54. Festiwalu im. Jana Kiepury"
+      "en": "THE STAGE FOR YOUNG ARTISTS Concert during the 54th Jan Kiepura Festival"
+    "place":
+      "pl": "Krynica-Zdrój"
+      "en": "Krynica-Zdrój"
   "2020-08-27":
     "date":
       "pl": "27 sierpnia 2020"
