@@ -930,8 +930,8 @@ events:
     "tickets": "https://www.bilety24.pl/kup-bilet-na-opera-si-6448?id=259684"
     "url": "https://operabaltycka.pl/pl/repertuar/opera-si/2020-04-25"
     "title":
-      "pl": "Opera? Si!"
-      "en": "Opera? Si!"
+      "pl": "ODWOŁANY! - Opera? Si!"
+      "en": "CANCELLED! - Opera? Si!"
     "place":
       "pl": "Opera Bałtycka w Gdańsku"
       "en": "Baltic Opera in Gdańsk"
@@ -942,8 +942,8 @@ events:
     "tickets": ""
     "url": ""
     "title":
-      "pl": "Ave Maria"
-      "en": "Ave Maria"
+      "pl": "ODWOŁANY! - Ave Maria"
+      "en": "CANCELLED! - Ave Maria"
     "place":
       "pl": "Kościół pw. Niepokalanego Poczęcia NMP w Ostrowie"
       "en": "Immaculate Conception's Church in Ostrowo"
@@ -954,8 +954,8 @@ events:
     "tickets": ""
     "url": ""
     "title":
-      "pl": "Ave Maria"
-      "en": "Ave Maria"
+      "pl": "ODWOŁANY! - Ave Maria"
+      "en": "CANCELLED! - Ave Maria"
     "place":
       "pl": "Kościół Gwiazda Morza w Sopocie"
       "en": "The Star of the Sea Church in Sopot"
@@ -971,10 +971,10 @@ events:
     "place":
       "pl": "Krynica-Zdrój"
       "en": "Krynica-Zdrój"
-  "2020-08-27":
+  "2021-08-19":
     "date":
-      "pl": "27 sierpnia 2020"
-      "en": "27 August 2020"
+      "pl": "19 sierpnia 2021"
+      "en": "19 August 2021"
     "tickets": ""
     "url": ""
     "title":
@@ -983,10 +983,10 @@ events:
     "place":
       "pl": "Opernspiele Munot, Schaffhausen"
       "en": "Opernspiele Munot, Schaffhausen"
-  "2020-08-28":
+  "2021-08-20":
     "date":
-      "pl": "28 sierpnia 2020"
-      "en": "28 August 2020"
+      "pl": "20 sierpnia 2021"
+      "en": "20 August 2021"
     "tickets": ""
     "url": ""
     "title":
@@ -995,10 +995,10 @@ events:
     "place":
       "pl": "Opernspiele Munot, Schaffhausen"
       "en": "Opernspiele Munot, Schaffhausen"
-  "2020-08-29":
+  "2021-08-21":
     "date":
-      "pl": "29 sierpnia 2020"
-      "en": "29 August 2020"
+      "pl": "21 sierpnia 2021"
+      "en": "21 August 2021"
     "tickets": ""
     "url": ""
     "title":
