@@ -881,6 +881,7 @@ events:
       "en": "8 March 2020"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "Wieczór z arią"
       "en": "An evening of aria"
@@ -893,6 +894,7 @@ events:
       "en": "10 March 2020"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "Wieczór z arią"
       "en": "An evening of aria"
@@ -905,6 +907,7 @@ events:
       "en": "21 March 2020"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "ODWOŁANY! - Koncert pieśni polskich"
       "en": "CANCELLED! - Recital of polish songs"
@@ -917,6 +920,7 @@ events:
       "en": "27 March 2020"
     "tickets": "https://ewejsciowki.pl/embedded/rezerwacja/174478"
     "url": "https://operakrolewska.pl/repetoire/dziady-widma-mickiewicz-moniuszko-22032020/"
+    "online": ""
     "title":
       "pl": "ODWOŁANY! - Dziady - Widma"
       "en": "CANCELLED! - Dziady - Widma"
@@ -929,6 +933,7 @@ events:
       "en": "25 April 2020"
     "tickets": "https://www.bilety24.pl/kup-bilet-na-opera-si-6448?id=259684"
     "url": "https://operabaltycka.pl/pl/repertuar/opera-si/2020-04-25"
+    "online": ""
     "title":
       "pl": "ODWOŁANY! - Opera? Si!"
       "en": "CANCELLED! - Opera? Si!"
@@ -941,6 +946,7 @@ events:
       "en": "3 May 2020"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "ODWOŁANY! - Ave Maria"
       "en": "CANCELLED! - Ave Maria"
@@ -953,6 +959,7 @@ events:
       "en": "3 May 2020"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "ODWOŁANY! - Ave Maria"
       "en": "CANCELLED! - Ave Maria"
@@ -963,8 +970,9 @@ events:
     "date":
       "pl": "9 maja 2020"
       "en": "9 May 2020"
-    "tickets": "https://radiogdansk.pl/sluchaj-rg-kanaly?fbclid=IwAR3fXmiUlEYXvgRtocVVx2nSrOKUG9hHvQKULhhlQFJIixDaq9LcEyMHf4k"
+    "tickets": ""
     "url": "https://amuz.gda.pl/wydarzenia/preludium-recital-soni-warzynskiej-dettlaff-z-cyklu-amuz-w-radiu-gdansk,366"
+    "online": "https://radiogdansk.pl/sluchaj-rg-kanaly?fbclid=IwAR3fXmiUlEYXvgRtocVVx2nSrOKUG9hHvQKULhhlQFJIixDaq9LcEyMHf4k"
     "title":
       "pl": "Gdański Festiwal Muzyczny - Recital"
       "en": "Gdansk Music Festival - Recital"
@@ -977,6 +985,7 @@ events:
       "en": "11 August 2020"
     "tickets": "http://www.festiwalkiepury.pl/bilety_13_0.html"
     "url": "http://www.festiwalkiepury.pl/home.html"
+    "online": ""
     "title":
       "pl": "Koncert ESTRADA MŁODYCH w ramach 54. Festiwalu im. Jana Kiepury"
       "en": "THE STAGE FOR YOUNG ARTISTS Concert during the 54th Jan Kiepura Festival"
@@ -989,6 +998,7 @@ events:
       "en": "19 August 2021"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "Czarodziejski Flet"
       "en": "Die Zauberflöte"
@@ -1001,6 +1011,7 @@ events:
       "en": "20 August 2021"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "Czarodziejski Flet"
       "en": "Die Zauberflöte"
@@ -1013,6 +1024,7 @@ events:
       "en": "21 August 2021"
     "tickets": ""
     "url": ""
+    "online": ""
     "title":
       "pl": "Czarodziejski Flet"
       "en": "Die Zauberflöte"
