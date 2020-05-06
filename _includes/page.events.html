@@ -24,6 +24,12 @@
   </a><br/>
 {% endif %}
 
+{% if event[1].online != "" %}
+  <a href="{{ event[1].online }}" target="_blank">
+      {% if page.lang == 'pl' %}słuchaj online{% else %}listen online{% endif %}
+  </a><br/>
+{% endif %}  
+  
 {% if forloop.last == false %}<hr>{% endif %}
 
 </div>
