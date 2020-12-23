@@ -1044,23 +1044,23 @@ events:
     "place":
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
       "en": "The Grand Theatre - Opera National in Warsaw"
-  "2021-01-16":
+  "2020-12-27":
     "date":
-      "pl": "16 stycznia 2021"
-      "en": "16 January 2021"
-    "tickets": ""
-    "url": "https://teatrwielki.pl/repertuar/kalendarium/2020-2021/czarodziejski-flet/"
-    "online": ""
+      "pl": "27 grudnia 2020"
+      "en": "27 December 2020"
+    "tickets": "https://live.bilety24.pl/event/index/88f3c9a88e7d7f94ce3bee5452b99a34c97028b1"
+    "url": "http://operabaltycka.pl/pl/repertuar/opera-si/2020-12-27#0"
+    "online": "https://live.bilety24.pl/event/index/88f3c9a88e7d7f94ce3bee5452b99a34c97028b1"
     "title":
       "pl": "Czarodziejski flet"
       "en": "Die Zauberflöte"
     "place":
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
       "en": "The Grand Theatre - Opera National in Warsaw"
-  "2021-01-21":
+  "2021-01-20":
     "date":
-      "pl": "21 stycznia 2021"
-      "en": "21 January 2021"
+      "pl": "20 stycznia 2021"
+      "en": "20 January 2021"
     "tickets": ""
     "url": "https://teatrwielki.pl/repertuar/kalendarium/2020-2021/czarodziejski-flet/"
     "online": ""
