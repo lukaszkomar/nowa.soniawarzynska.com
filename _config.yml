@@ -1057,11 +1057,24 @@ events:
     "place":
       "pl": "Opera Bałtycka w Gdańsku"
       "en": "The Baltic Opera in Gdansk"
-  "2021-01-20":
+  "2021-03-26":
     "date":
-      "pl": "20 stycznia 2021"
-      "en": "20 January 2021"
-    "tickets": ""
+      "pl": "26 marca 2021"
+      "en": "26 March 2021"
+    "tickets": "https://butik.teatrwielki.pl/rezerwacja/miejsca.html?ter_id=1357&ter_idt=9d9a9d909d484a27c36a223022665034&extid=4380&lang=pl&_ga=2.140318196.631359397.1614104868-639607213.1601894885"
+    "url": "https://teatrwielki.pl/repertuar/kalendarium/2020-2021/czarodziejski-flet/"
+    "online": ""
+    "title":
+      "pl": "Czarodziejski flet"
+      "en": "Die Zauberflöte"
+    "place":
+      "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
+      "en": "The Grand Theatre - Opera National in Warsaw"
+  "2021-03-30":
+    "date":
+      "pl": "30 marca 2021"
+      "en": "30 March 2021"
+    "tickets": "https://butik.teatrwielki.pl/rezerwacja/miejsca.html?ter_id=1362&ter_idt=9c3a27eb1c8f47f9f79baf3dc9505129&extid=4382&lang=pl&_ga=2.140318196.631359397.1614104868-639607213.1601894885"
     "url": "https://teatrwielki.pl/repertuar/kalendarium/2020-2021/czarodziejski-flet/"
     "online": ""
     "title":
