@@ -1057,19 +1057,6 @@ events:
     "place":
       "pl": "Opera Bałtycka w Gdańsku"
       "en": "The Baltic Opera in Gdansk"
-  "2021-03-26":
-    "date":
-      "pl": "26 marca 2021"
-      "en": "26 March 2021"
-    "tickets": "https://butik.teatrwielki.pl/rezerwacja/miejsca.html?ter_id=1357&ter_idt=9d9a9d909d484a27c36a223022665034&extid=4380&lang=pl&_ga=2.140318196.631359397.1614104868-639607213.1601894885"
-    "url": "https://teatrwielki.pl/repertuar/kalendarium/2020-2021/czarodziejski-flet/"
-    "online": ""
-    "title":
-      "pl": "Czarodziejski flet"
-      "en": "Die Zauberflöte"
-    "place":
-      "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
-      "en": "The Grand Theatre - Opera National in Warsaw"
   "2021-03-30":
     "date":
       "pl": "30 marca 2021"
@@ -1083,6 +1070,58 @@ events:
     "place":
       "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
       "en": "The Grand Theatre - Opera National in Warsaw"
+  "2021-04-16":
+    "date":
+      "pl": "16 kwietnia 2021"
+      "en": "16 April 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=978&identyfikator=4de563dc253212e2e38f288db2959565"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5284"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
+  "2021-04-18":
+    "date":
+      "pl": "18 kwietnia 2021"
+      "en": "18 April 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=982&identyfikator=2ad397baac9639f3a53c56e13ad99966"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5213"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
+  "2021-04-22":
+    "date":
+      "pl": "22 kwietnia 2021"
+      "en": "22 April 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=984&identyfikator=7c4b1d2b0ea8d1eedb89609801536302"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5214"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
+  "2021-04-24":
+    "date":
+      "pl": "24 kwietnia 2021"
+      "en": "24 April 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=986&identyfikator=8c861d9dfc4964a9c39c9f209ad03558"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5218"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
   "2021-08-19":
     "date":
       "pl": "19 sierpnia 2021"
