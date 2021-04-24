@@ -1057,6 +1057,32 @@ events:
     "place":
       "pl": "Opera Bałtycka w Gdańsku"
       "en": "The Baltic Opera in Gdansk"
+  "2021-05-03":
+    "date":
+      "pl": "3 maja 2021"
+      "en": "3 May 2021"
+    "tickets": ""
+    "url": "https://operakrolewska.pl/repetoire/slowik-maciej-kamienski-wersja-koncertowa/"
+    "online": "https://www.youtube.com/channel/UC-m28nt18Ep1aSp8bZIgLfQ/featured"
+    "title":
+      "pl": "Słowik/Maciej Kamieński - wersja koncertowa, streaming"
+      "en": "Słowik/Maciej Kamieński - concert version, streaming"
+    "place":
+      "pl": "Polska Opera Królewska"
+      "en": "The Polish Royal Opera"
+  "2021-05-08":
+    "date":
+      "pl": "8 maja 2021"
+      "en": "8 May 2021"
+    "tickets": ""
+    "url": "http://operabaltycka.pl/pl/repertuar/opera-si/2021-05-08"
+    "online": ""
+    "title":
+      "pl": "Opera? Si!"
+      "en": "Opera? Si!"
+    "place":
+      "pl": "Opera Bałtycka w Gdańsku"
+      "en": "The Baltic Opera in Gdansk"
   "2021-06-04":
     "date":
       "pl": "4 czerwca 2021"
