@@ -1135,19 +1135,45 @@ events:
     "place":
       "pl": "Krynica-Zdrój"
       "en": "Krynica-Zdrój"
-  "2021-10-23":
+  "2021-10-16":
     "date":
-      "pl": "23 października 2021"
-      "en": "23 October 2021"
-    "tickets": "https://www.bilety24.pl/kup-bilet-na-opera-si-6448?id=336890#overall"
-    "url": "http://operabaltycka.pl/pl/repertuar/opera-si"
+      "pl": "16 października 2021"
+      "en": "16 October 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=1170&identyfikator=b91a87e947887f7a21f2ccc18f619544"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5345"
     "online": ""
     "title":
-      "pl": "Opera? Si!"
-      "en": "Opera? Si!"
+      "pl": "Wolny Strzelec"
+      "en": "Der Freischütz"
     "place":
-      "pl": "Opera Bałtycka w Gdańsku"
-      "en": "The Baltic Opera in Gdansk"
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2021-10-22":
+    "date":
+      "pl": "22 października 2021"
+      "en": "22 October 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=1174&identyfikator=f78a2e8790646919f51361928d657527"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5348"
+    "online": ""
+    "title":
+      "pl": "Wolny Strzelec"
+      "en": "Der Freischütz"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2021-10-24":
+    "date":
+      "pl": "24 października 2021"
+      "en": "24 October 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=1177&identyfikator=607c4904b758609f79a94a485d443112"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5350"
+    "online": ""
+    "title":
+      "pl": "Wolny Strzelec"
+      "en": "Der Freischütz"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
   "2022-02-04":
     "date":
       "pl": "4 lutego 2022"
